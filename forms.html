@@ -515,6 +515,12 @@
     &lt;option value="3">Option 3&lt;/option>
   &lt;/select>
             </code></pre>
+            <p></p>Materialize JS must be included and material_select() function must be called on select element after Document Object Model (DOM) is ready.</p>
+            <pre><code class="language-javascript">
+              $(document).ready(function() {
+                $('select').material_select();
+              });
+            </code></pre>
           </div>
           <div class="col s12">
             <br><br>
